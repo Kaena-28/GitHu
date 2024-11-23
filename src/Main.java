@@ -59,15 +59,17 @@ public class Main {
             System.out.println("a больше");
         } else {
             System.out.println("b меньше");
-        }*/
+        }
 
         Random random1 = new Random();
         int a1 = random1.nextInt(1000);
-        System.out.println(a1);*/
+        System.out.println(a1);
 
         int a = 10;
         int b = 12;
         int s = 22;
-        System.out.println(a+"+"+b+"="+s);
+        System.out.println(a+"+"+b+"="+s);*/
+
+        System.out.println("Kaena Hill");
     }
 }
