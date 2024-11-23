@@ -59,7 +59,7 @@ public class Main {
             System.out.println("a больше");
         } else {
             System.out.println("b меньше");
-        }
+        }*/
 
         Random random1 = new Random();
         int a1 = random1.nextInt(1000);
