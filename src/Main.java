@@ -72,7 +72,7 @@ public class Main {
 
         System.out.println("Kaena Hill");
         System.out.println("Dastan Aka");
-        System.out.println("Malika");*/
+        System.out.println("Malika");
 
         Scanner sc =new Scanner(System.in);
         int a = sc.nextInt();
@@ -82,6 +82,12 @@ public class Main {
 
         }
 
-        System.out.println();
+        System.out.println();*/
+
+        int number = 567;
+        int number1 = number%10;
+        int number2  = (number/10)%10;
+        int number3 = (number/100)%10;
+        System.out.println(number3+ ","+number2+","+number1);
     }
 }
