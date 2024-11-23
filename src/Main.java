@@ -82,12 +82,18 @@ public class Main {
 
         }
 
-        System.out.println();*/
+        System.out.println();
 
         int number = 567;
         int number1 = number%10;
         int number2  = (number/10)%10;
         int number3 = (number/100)%10;
-        System.out.println(number3+ ","+number2+","+number1);
+        System.out.println(number3+ ","+number2+","+number1);*/
+
+        int num = 321;
+        int num2 = num%10;
+        int num3 = (num/10)%10;
+        int num4 =(num/100)%10;
+        System.out.println(num4+ ","+num3+","+num2);
     }
 }
