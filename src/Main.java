@@ -20,7 +20,7 @@ public class Main {
         int a1 = random.nextInt(100);
         int b1 = random.nextInt(100);
         int c = a1+b1;
-        System.out.println(c);*/
+        System.out.println(c);
 
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
@@ -29,6 +29,11 @@ public class Main {
     public static void zvezda(int count) {
         for (int i = 0; i < count; i++) {
             System.out.print("*");
-        }
+        }*/
+
+        Scanner scanner = new Scanner(System.in);
+        String a = scanner.nextLine();
+        String b = scanner.nextLine();
+        System.out.println(a+b);
     }
 }
