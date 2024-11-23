@@ -34,10 +34,20 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String a = scanner.nextLine();
         String b = scanner.nextLine();
-        System.out.println(a+b);*/
+        System.out.println(a+b);
 
         int a = 100;
         int b = 200;
+        int c = a+b;
+        int d = c/2;
+        System.out.println(d);*/
+
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        sum(a , b);
+    }
+    public static void sum(int a, int b) {
         int c = a+b;
         int d = c/2;
         System.out.println(d);
