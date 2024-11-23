@@ -50,7 +50,7 @@ public class Main {
     public static void sum(int a, int b) {
         int c = a+b;
         int d = c/2;
-        System.out.println(d);*/
+        System.out.println(d);
 
         Random random = new Random();
         int a = random.nextInt(1000);
@@ -59,7 +59,7 @@ public class Main {
             System.out.println("a больше");
         } else {
             System.out.println("b меньше");
-        }
+        }*/
 
         Random random1 = new Random();
         int a1 = random.nextInt(1000);
