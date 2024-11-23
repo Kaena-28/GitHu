@@ -95,5 +95,7 @@ public class Main {
         int num3 = (num/10)%10;
         int num4 =(num/100)%10;
         System.out.println(num4+ ","+num3+","+num2);
+
+        System.out.println("jvbhefvbds hvs");
     }
 }
