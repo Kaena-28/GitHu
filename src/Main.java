@@ -29,11 +29,17 @@ public class Main {
     public static void zvezda(int count) {
         for (int i = 0; i < count; i++) {
             System.out.print("*");
-        }*/
+        }
 
         Scanner scanner = new Scanner(System.in);
         String a = scanner.nextLine();
         String b = scanner.nextLine();
-        System.out.println(a+b);
+        System.out.println(a+b);*/
+
+        int a = 100;
+        int b = 200;
+        int c = a+b;
+        int d = c/2;
+        System.out.println(d);
     }
 }
