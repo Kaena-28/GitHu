@@ -72,5 +72,6 @@ public class Main {
 
         System.out.println("Kaena Hill");
         System.out.println("Dastan Aka");
+        System.out.println("Malika");
     }
 }
