@@ -14,12 +14,21 @@ public class Main {
        } else {
            m = 50;
        }
-        System.out.println(m);*/
+        System.out.println(m);
 
         Random random = new Random();
         int a1 = random.nextInt(100);
         int b1 = random.nextInt(100);
         int c = a1+b1;
-        System.out.println(c);
+        System.out.println(c);*/
+
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        zvezda(a);
+    }
+    public static void zvezda(int count) {
+        for (int i = 0; i < count; i++) {
+            System.out.print("*");
+        }
     }
 }
