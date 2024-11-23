@@ -68,10 +68,20 @@ public class Main {
         int a = 10;
         int b = 12;
         int s = 22;
-        System.out.println(a+"+"+b+"="+s);*/
+        System.out.println(a+"+"+b+"="+s);
 
         System.out.println("Kaena Hill");
         System.out.println("Dastan Aka");
-        System.out.println("Malika");
+        System.out.println("Malika");*/
+
+        Scanner sc =new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        for (int i=a; i<=b; i++){
+            if (i%2==0);
+
+        }
+
+        System.out.println();
     }
 }
