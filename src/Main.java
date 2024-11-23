@@ -50,7 +50,7 @@ public class Main {
     public static void sum(int a, int b) {
         int c = a+b;
         int d = c/2;
-        System.out.println(d);*/
+        System.out.println(d);
 
         Random random = new Random();
         int a = random.nextInt(1000);
@@ -62,7 +62,12 @@ public class Main {
         }
 
         Random random1 = new Random();
-        int a1 = random.nextInt(1000);
-        System.out.println(a);
+        int a1 = random1.nextInt(1000);
+        System.out.println(a1);*/
+
+        int a = 10;
+        int b = 12;
+        int s = 22;
+        System.out.println(a+"+"+b+"="+s);
     }
 }
